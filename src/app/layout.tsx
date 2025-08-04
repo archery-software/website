@@ -20,7 +20,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`max-w-7xl mx-auto ${fira_Code.className}`}>
 				<nav className="flex items-center justify-center px-16 py-4 border-b sm:justify-between">
-					<h1 className={`${goldman.className} text-4xl`}>ArchWare</h1>
+					<Link href="/" className={`${goldman.className} text-4xl`}>ArchWare</Link>
 					<p className="hidden text-sm text-slate-500 sm:block">Software for Archery</p>
 				</nav>
 				{children}
